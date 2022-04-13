@@ -1,0 +1,5 @@
+<map id="DecoratorManager.AddDecorator" name="DecoratorManager.AddDecorator">
+<area shape="rect" id="node1" title="Добавляет декоратор, если его ещё нет в списке, иначе удаляет его из списка" alt="" coords="304,46,515,73"/>
+<area shape="rect" id="node2" href="$class_guide_window_manager.html#aacaa8ff0b0fc0be7aa8261c9d8082ef7" title=" " alt="" coords="21,5,240,47"/>
+<area shape="rect" id="node3" href="$class_guide_window_manager.html#a60ebf36c0a2ed86e1126a2de3e1490e9" title=" " alt="" coords="5,71,256,112"/>
+</map>

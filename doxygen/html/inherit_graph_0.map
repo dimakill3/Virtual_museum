@@ -1,0 +1,6 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" href="$class_audio_guide_state.html" title=" " alt="" coords="5,56,125,83"/>
+<area shape="rect" id="node2" href="$class_paused_state.html" title=" " alt="" coords="175,5,273,32"/>
+<area shape="rect" id="node3" href="$class_play_state.html" title=" " alt="" coords="185,56,263,83"/>
+<area shape="rect" id="node4" href="$class_stopped_state.html" title=" " alt="" coords="173,107,275,133"/>
+</map>

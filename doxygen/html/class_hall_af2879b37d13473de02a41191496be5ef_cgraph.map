@@ -1,0 +1,4 @@
+<map id="Hall.OnSellTicket" name="Hall.OnSellTicket">
+<area shape="rect" id="node1" title="Открывает зал для посетителя, если тот приобрёл билет" alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$class_hall_state.html#aac3c4e1f28a042b056fb6a07636b836d" title=" " alt="" coords="176,5,361,32"/>
+</map>

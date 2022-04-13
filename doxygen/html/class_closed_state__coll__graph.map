@@ -1,0 +1,8 @@
+<map id="ClosedState" name="ClosedState">
+<area shape="rect" id="node1" title=" " alt="" coords="54,336,147,363"/>
+<area shape="rect" id="node2" href="$class_hall_state.html" title=" " alt="" coords="63,260,138,287"/>
+<area shape="rect" id="node3" href="$class_hall.html" title="Класс зала, организующий работу с залом и экспонатами внутри него" alt="" coords="79,171,123,197"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,81,116,108"/>
+<area shape="rect" id="node5" href="$class_timetable.html" title=" " alt="" coords="140,81,219,108"/>
+<area shape="rect" id="node6" title=" " alt="" coords="120,5,239,32"/>
+</map>

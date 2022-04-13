@@ -1,0 +1,9 @@
+<map id="HallState.Run" name="HallState.Run">
+<area shape="rect" id="node1" title=" " alt="" coords="411,107,513,133"/>
+<area shape="rect" id="node2" href="$class_hall.html#ad137c98602e811baf1551bea24410c9b" title=" " alt="" coords="264,107,363,133"/>
+<area shape="rect" id="node3" href="$class_opened_for_customer_state.html#a1234863d3c9a4d712ef30881635ff64b" title=" " alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node4" href="$class_opened_state.html#ace9caea1202391d44e9cdfbb7fb9af44" title=" " alt="" coords="43,56,178,83"/>
+<area shape="rect" id="node5" href="$class_closed_state.html#af70773f61bb7462dbfdd596dcb99d3f8" title=" " alt="" coords="47,107,175,133"/>
+<area shape="rect" id="node6" href="$class_closed_state.html#aaa270fd74709b0f129ae3a49df9170d9" title=" " alt="" coords="9,157,212,184"/>
+<area shape="rect" id="node7" href="$class_opened_state.html#a49394e818c812b9b7a1748d7cb320487" title=" " alt="" coords="7,208,215,235"/>
+</map>

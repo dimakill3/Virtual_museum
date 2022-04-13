@@ -1,0 +1,4 @@
+<map id="MenuManager.CloseShop" name="MenuManager.CloseShop">
+<area shape="rect" id="node1" title=" " alt="" coords="224,5,395,32"/>
+<area shape="rect" id="node2" href="$class_button_actions.html#a54f9be8932553791271589a55723483b" title="Выход в музей из меню кассы" alt="" coords="5,5,176,32"/>
+</map>

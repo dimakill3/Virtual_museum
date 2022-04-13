@@ -1,0 +1,6 @@
+<map id="Timetable.GetStartTimeInMinutes" name="Timetable.GetStartTimeInMinutes">
+<area shape="rect" id="node1" title=" " alt="" coords="223,49,392,90"/>
+<area shape="rect" id="node2" href="$class_hall.html#aa282abb339857a23cd09f051c2b3906f" title="Проверяет расписание и изменяет состояние зала, если нужно" alt="" coords="33,5,147,32"/>
+<area shape="rect" id="node3" href="$class_hall.html#ac3a8dd64228410cba8ca4a193136aacb" title="Проверка расписания зала на скорое закрытие" alt="" coords="7,56,173,83"/>
+<area shape="rect" id="node4" href="$class_hall.html#a4e879abda5c847b7bf0bb38b7656bbb8" title=" " alt="" coords="5,107,175,133"/>
+</map>

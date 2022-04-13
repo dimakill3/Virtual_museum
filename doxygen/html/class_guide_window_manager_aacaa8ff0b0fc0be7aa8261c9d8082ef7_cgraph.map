@@ -1,0 +1,4 @@
+<map id="GuideWindowManager.ShowArtistLinkButtonClick" name="GuideWindowManager.ShowArtistLinkButtonClick">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$class_decorator_manager.html#a8888a0a84887926ce3a4c9c1525dc4f4" title="Добавляет декоратор, если его ещё нет в списке, иначе удаляет его из списка" alt="" coords="272,13,483,39"/>
+</map>

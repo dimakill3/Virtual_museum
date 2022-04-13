@@ -1,0 +1,4 @@
+<map id="HallState.Close" name="HallState.Close">
+<area shape="rect" id="node1" title=" " alt="" coords="167,5,279,32"/>
+<area shape="rect" id="node2" href="$class_hall.html#aa282abb339857a23cd09f051c2b3906f" title="Проверяет расписание и изменяет состояние зала, если нужно" alt="" coords="5,5,119,32"/>
+</map>

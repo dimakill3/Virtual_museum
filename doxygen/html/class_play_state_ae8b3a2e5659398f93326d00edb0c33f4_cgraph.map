@@ -1,0 +1,5 @@
+<map id="PlayState.Pause" name="PlayState.Pause">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node2" href="$class_audio_tell.html#a3b64eb61574eb187e9576f1264ebb6f5" title=" " alt="" coords="173,5,328,32"/>
+<area shape="rect" id="node3" href="$class_audio_guide_state.html#a81a835cc5769b19c4cd68044e9a58d5e" title=" " alt="" coords="376,5,565,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Dropdowns.SelectHall" name="Dropdowns.SelectHall">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,155,108"/>
+<area shape="rect" id="node2" href="$class_customer.html#af911722dd55f922abfe8406597e827ff" title="Поиск у пользователя гида соответствующего типа для зала" alt="" coords="203,5,345,32"/>
+<area shape="rect" id="node3" href="$class_customer.html#a2e4f314cc70cbeb1218f20642a1d0521" title="Поиск у пользователя билета от зала" alt="" coords="203,56,345,83"/>
+<area shape="rect" id="node4" href="$class_museum.html#a6610605d28d1afd7863116c21542deaa" title=" " alt="" coords="215,107,333,133"/>
+<area shape="rect" id="node5" href="$class_hall.html#a9b21528a5daadb99aca16dad7ad13595" title=" " alt="" coords="217,157,331,184"/>
+</map>

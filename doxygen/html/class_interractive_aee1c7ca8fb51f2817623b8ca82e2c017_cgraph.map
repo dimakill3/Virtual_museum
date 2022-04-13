@@ -1,0 +1,5 @@
+<map id="Interractive.HallStateChangedNotify" name="Interractive.HallStateChangedNotify">
+<area shape="rect" id="node1" title="Уведомление об изменении состояния зала" alt="" coords="5,23,197,65"/>
+<area shape="rect" id="node2" href="$class_museum.html#a6610605d28d1afd7863116c21542deaa" title=" " alt="" coords="245,5,364,32"/>
+<area shape="rect" id="node3" href="$class_notify_obj.html#a4ee968c9ad50f1f5158f9343af6def2b" title="Отображает уведомление" alt="" coords="249,56,360,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="IShowpiece.GetDescription" name="IShowpiece.GetDescription">
+<area shape="rect" id="node1" title=" " alt="" coords="276,64,455,91"/>
+<area shape="rect" id="node2" href="$class_artist_link_decorator.html#aba02e3915f85bfc003ab71b2343b273f" title=" " alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node3" href="$class_showpiece_link_decorator.html#a495498a17b9c490036d09857e9ce9208" title=" " alt="" coords="21,57,212,98"/>
+<area shape="rect" id="node4" href="$class_decorator_manager.html#a9491dca9e2d667ad0953a9fbdc74b9c4" title="Обработать все декораторы по порядку" alt="" coords="27,122,207,163"/>
+</map>

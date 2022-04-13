@@ -1,0 +1,398 @@
+\hypertarget{class_hall}{}\doxysection{Класс Hall}
+\label{class_hall}\index{Hall@{Hall}}
+
+
+Класс зала, организующий работу с залом и экспонатами внутри него  
+
+
+
+
+Граф наследования\+:Hall\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_hall__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Граф связей класса Hall\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_hall__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_hall_a8d105f3d100b6960e3cd49d662bdc08f}{Get\+Hall\+ID}} ()
+\item 
+\mbox{\hyperlink{class_ticket}{Ticket}} \mbox{\hyperlink{class_hall_a5553dba59e17c7ba78ace173beeb9059}{Get\+Ticket}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает билет от зала \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_hall_a5b21e1aab603105f8529ff0c9bf76f22}{Get\+Theme}} ()
+\item 
+int \mbox{\hyperlink{class_hall_a98852ff53c4033610667468153062e82}{Get\+Showpiece\+Count}} ()
+\item 
+Sprite \mbox{\hyperlink{class_hall_a9b21528a5daadb99aca16dad7ad13595}{Get\+Preview}} ()
+\item 
+void \mbox{\hyperlink{class_hall_ad137c98602e811baf1551bea24410c9b}{Set\+State}} (\mbox{\hyperlink{class_hall_state}{Hall\+State}} state)
+\item 
+\mbox{\hyperlink{class_hall_state}{Hall\+State}} \mbox{\hyperlink{class_hall_a1b5d4925be102d7d2e2ee254d61bd0f7}{Get\+State}} ()
+\item 
+void \mbox{\hyperlink{class_hall_aa282abb339857a23cd09f051c2b3906f}{Check\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Проверяет расписание и изменяет состояние зала, если нужно \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_hall_a4e879abda5c847b7bf0bb38b7656bbb8}{Get\+Timetable\+In\+String}} ()
+\item 
+void \mbox{\hyperlink{class_hall_ac3a8dd64228410cba8ca4a193136aacb}{Check\+Time\+For\+Close}} ()
+\begin{DoxyCompactList}\small\item\em Проверка расписания зала на скорое закрытие \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_hall_ae1cbb6d459222ef97beda731d1898d0e}{Add\+Showpiece}} (\mbox{\hyperlink{class_showpiece}{Showpiece}} sp)
+\item 
+void \mbox{\hyperlink{class_hall_aee28e6489d92900967fdc796eef385bd}{Hall\+Init}} ()
+\begin{DoxyCompactList}\small\item\em Инициализация зала \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_hall_af2879b37d13473de02a41191496be5ef}{On\+Sell\+Ticket}} (int \+\_\+hall\+ID)
+\begin{DoxyCompactList}\small\item\em Открывает зал для посетителя, если тот приобрёл билет \end{DoxyCompactList}\item 
+Vector3 \mbox{\hyperlink{class_hall_ad6e10d2b72c8f45baf176fd9b59c0de2}{Get\+Exit\+Position}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает позицию выхода из зала \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{class_hall_a78ff3866ff3de1d7621676548ec4e02e}{Get\+Barrier}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_timetable}{Timetable}} \mbox{\hyperlink{class_hall_a36b0fc36786073d857ee86c12984fe95}{timetable}}
+\item 
+Action$<$ int $>$ \mbox{\hyperlink{class_hall_abf3ba87c77c6be10196dc90ba1f2033c}{On\+Hall\+Close}}
+\begin{DoxyCompactList}\small\item\em Событие закрытия зала \end{DoxyCompactList}\item 
+Action$<$ int $>$ \mbox{\hyperlink{class_hall_a1694cff38e02302b3effa25bdb186621}{On\+State\+Changed}}
+\begin{DoxyCompactList}\small\item\em Событие изменения состояния \end{DoxyCompactList}\item 
+Action$<$ int, int $>$ \mbox{\hyperlink{class_hall_a6a40e3e4f89d8d9dd904fc5832871dea}{On\+Pre\+Close}}
+\begin{DoxyCompactList}\small\item\em Событие скорого закрытия зала \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс зала, организующий работу с залом и экспонатами внутри него 
+
+Предназначен для следующих операций с залом\+:
+\begin{DoxyItemize}
+\item Проверка расписания
+\item Изменение состояний зала на основе расписания и действий игрока
+\item Уведомление слушателей о скором закрытии, закрытии или изменении состояния зала
+\end{DoxyItemize}
+
+Также в данном классе хранится список экспонатов внутри зала, есть возможность добавления новых 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_hall_ae1cbb6d459222ef97beda731d1898d0e}\label{class_hall_ae1cbb6d459222ef97beda731d1898d0e}} 
+\index{Hall@{Hall}!AddShowpiece@{AddShowpiece}}
+\index{AddShowpiece@{AddShowpiece}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{AddShowpiece()}{AddShowpiece()}}
+{\footnotesize\ttfamily void Hall.\+Add\+Showpiece (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_showpiece}{Showpiece}}}]{sp }\end{DoxyParamCaption})}
+
+Добавление экспоната в зал 
+\begin{DoxyParams}{Аргументы}
+{\em sp} & Экспонат для добавления \\
+\hline
+\end{DoxyParams}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{class_hall_ae1cbb6d459222ef97beda731d1898d0e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_aa282abb339857a23cd09f051c2b3906f}\label{class_hall_aa282abb339857a23cd09f051c2b3906f}} 
+\index{Hall@{Hall}!CheckTime@{CheckTime}}
+\index{CheckTime@{CheckTime}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{CheckTime()}{CheckTime()}}
+{\footnotesize\ttfamily void Hall.\+Check\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Проверяет расписание и изменяет состояние зала, если нужно 
+
+Изменяет состояние зала в зависимости от расписания\+:
+\begin{DoxyItemize}
+\item Зал закрывается по расписанию
+\item Зал открывается по расписанию
+\item Если зал открыт и пользователь купил билет от зала, то зал открывается для посетителя 
+\end{DoxyItemize}Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_aa282abb339857a23cd09f051c2b3906f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_ac3a8dd64228410cba8ca4a193136aacb}\label{class_hall_ac3a8dd64228410cba8ca4a193136aacb}} 
+\index{Hall@{Hall}!CheckTimeForClose@{CheckTimeForClose}}
+\index{CheckTimeForClose@{CheckTimeForClose}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{CheckTimeForClose()}{CheckTimeForClose()}}
+{\footnotesize\ttfamily void Hall.\+Check\+Time\+For\+Close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Проверка расписания зала на скорое закрытие 
+
+Если до закрытия зала осталось 30 минут, запускается событие On\+Pre\+Close Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_ac3a8dd64228410cba8ca4a193136aacb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_a78ff3866ff3de1d7621676548ec4e02e}\label{class_hall_a78ff3866ff3de1d7621676548ec4e02e}} 
+\index{Hall@{Hall}!GetBarrier@{GetBarrier}}
+\index{GetBarrier@{GetBarrier}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetBarrier()}{GetBarrier()}}
+{\footnotesize\ttfamily Game\+Object Hall.\+Get\+Barrier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает ограждение зала \begin{DoxyReturn}{Возвращает}
+Game\+Object ограждения зала ~\newline
+В игре ограждение выглядит следующим образом\+:  
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_a78ff3866ff3de1d7621676548ec4e02e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_ad6e10d2b72c8f45baf176fd9b59c0de2}\label{class_hall_ad6e10d2b72c8f45baf176fd9b59c0de2}} 
+\index{Hall@{Hall}!GetExitPosition@{GetExitPosition}}
+\index{GetExitPosition@{GetExitPosition}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetExitPosition()}{GetExitPosition()}}
+{\footnotesize\ttfamily Vector3 Hall.\+Get\+Exit\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает позицию выхода из зала 
+
+Нужен для того, чтобы знать, куда выгонять посетителя при закрытии зала \begin{DoxyReturn}{Возвращает}
+позиция выхода из зала 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_hall_a8d105f3d100b6960e3cd49d662bdc08f}\label{class_hall_a8d105f3d100b6960e3cd49d662bdc08f}} 
+\index{Hall@{Hall}!GetHallID@{GetHallID}}
+\index{GetHallID@{GetHallID}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetHallID()}{GetHallID()}}
+{\footnotesize\ttfamily int Hall.\+Get\+Hall\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращет номер зала \begin{DoxyReturn}{Возвращает}
+Номер зала 
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_a8d105f3d100b6960e3cd49d662bdc08f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_a9b21528a5daadb99aca16dad7ad13595}\label{class_hall_a9b21528a5daadb99aca16dad7ad13595}} 
+\index{Hall@{Hall}!GetPreview@{GetPreview}}
+\index{GetPreview@{GetPreview}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetPreview()}{GetPreview()}}
+{\footnotesize\ttfamily Sprite Hall.\+Get\+Preview (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает превью зала \begin{DoxyReturn}{Возвращает}
+Sprite превью зала
+\end{DoxyReturn}
+\begin{DoxyWarning}{Предупреждения}
+Следующая формула не используется в методе!!!
+\end{DoxyWarning}
+\[ (x+a)^n = \sum_{k = 0}^{n}(\frac{n}{k})x^k a^{n-k} \] Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{class_hall_a9b21528a5daadb99aca16dad7ad13595_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_a98852ff53c4033610667468153062e82}\label{class_hall_a98852ff53c4033610667468153062e82}} 
+\index{Hall@{Hall}!GetShowpieceCount@{GetShowpieceCount}}
+\index{GetShowpieceCount@{GetShowpieceCount}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetShowpieceCount()}{GetShowpieceCount()}}
+{\footnotesize\ttfamily int Hall.\+Get\+Showpiece\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает текущее количество экспонатов в зале \begin{DoxyReturn}{Возвращает}
+Текущее количество экспонатов в зале 
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_a98852ff53c4033610667468153062e82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_a1b5d4925be102d7d2e2ee254d61bd0f7}\label{class_hall_a1b5d4925be102d7d2e2ee254d61bd0f7}} 
+\index{Hall@{Hall}!GetState@{GetState}}
+\index{GetState@{GetState}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetState()}{GetState()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_hall_state}{Hall\+State}} Hall.\+Get\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает состояние зала \begin{DoxyReturn}{Возвращает}
+Состояние зала \mbox{\hyperlink{class_hall_state}{Hall\+State}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_hall_a5b21e1aab603105f8529ff0c9bf76f22}\label{class_hall_a5b21e1aab603105f8529ff0c9bf76f22}} 
+\index{Hall@{Hall}!GetTheme@{GetTheme}}
+\index{GetTheme@{GetTheme}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetTheme()}{GetTheme()}}
+{\footnotesize\ttfamily string Hall.\+Get\+Theme (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает описание зала \begin{DoxyReturn}{Возвращает}
+Описание зала 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_hall_a5553dba59e17c7ba78ace173beeb9059}\label{class_hall_a5553dba59e17c7ba78ace173beeb9059}} 
+\index{Hall@{Hall}!GetTicket@{GetTicket}}
+\index{GetTicket@{GetTicket}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetTicket()}{GetTicket()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ticket}{Ticket}} Hall.\+Get\+Ticket (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает билет от зала 
+
+Используется при покупке билета игроком \begin{DoxyReturn}{Возвращает}
+Билет от зала \mbox{\hyperlink{class_ticket}{Ticket}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_hall_a4e879abda5c847b7bf0bb38b7656bbb8}\label{class_hall_a4e879abda5c847b7bf0bb38b7656bbb8}} 
+\index{Hall@{Hall}!GetTimetableInString@{GetTimetableInString}}
+\index{GetTimetableInString@{GetTimetableInString}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{GetTimetableInString()}{GetTimetableInString()}}
+{\footnotesize\ttfamily string Hall.\+Get\+Timetable\+In\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает расписание зала в текстовом виде
+
+\begin{DoxyReturn}{Возвращает}
+Расписание зала в формате HH\+:MM -\/ HH\+:MM 
+\end{DoxyReturn}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_a4e879abda5c847b7bf0bb38b7656bbb8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_aee28e6489d92900967fdc796eef385bd}\label{class_hall_aee28e6489d92900967fdc796eef385bd}} 
+\index{Hall@{Hall}!HallInit@{HallInit}}
+\index{HallInit@{HallInit}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{HallInit()}{HallInit()}}
+{\footnotesize\ttfamily void Hall.\+Hall\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Инициализация зала 
+
+Метод выполняет последовательность действий по инициализации зала\+:
+\begin{DoxyItemize}
+\item Присваивает залу id
+\item Инициализируем список экспонатов
+\item Считываем экспонаты в зале
+\begin{DoxyItemize}
+\item Инициализируем экспонат
+\item Добавляем экспонат в список
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\begin{DoxySeeAlso}{См. также}
+\mbox{\hyperlink{class_showpiece_a33fe6f10f1a49c674a67931f401f847f}{Showpiece\+::\+Showpiece\+Init}} 
+
+\mbox{\hyperlink{class_hall_ae1cbb6d459222ef97beda731d1898d0e}{Add\+Showpiece}} 
+\end{DoxySeeAlso}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{class_hall_aee28e6489d92900967fdc796eef385bd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_af2879b37d13473de02a41191496be5ef}\label{class_hall_af2879b37d13473de02a41191496be5ef}} 
+\index{Hall@{Hall}!OnSellTicket@{OnSellTicket}}
+\index{OnSellTicket@{OnSellTicket}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{OnSellTicket()}{OnSellTicket()}}
+{\footnotesize\ttfamily void Hall.\+On\+Sell\+Ticket (\begin{DoxyParamCaption}\item[{int}]{\+\_\+hall\+ID }\end{DoxyParamCaption})}
+
+
+
+Открывает зал для посетителя, если тот приобрёл билет 
+
+Если зал открыт по расписанию, то при покупке билета игроком зал открывается 
+\begin{DoxyParams}{Аргументы}
+{\em \+\_\+hall\+ID} & Номер зала, для которого был куплен билет \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Заметки}
+Является подпиской на событие On\+Sell\+Ticket в классе \mbox{\hyperlink{class_button_actions}{Button\+Actions}} 
+\end{DoxyNote}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_hall_af2879b37d13473de02a41191496be5ef_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_ad137c98602e811baf1551bea24410c9b}\label{class_hall_ad137c98602e811baf1551bea24410c9b}} 
+\index{Hall@{Hall}!SetState@{SetState}}
+\index{SetState@{SetState}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{SetState()}{SetState()}}
+{\footnotesize\ttfamily void Hall.\+Set\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_hall_state}{Hall\+State}}}]{state }\end{DoxyParamCaption})}
+
+Задаёт состояние зала 
+\begin{DoxyParams}{Аргументы}
+{\em state} & Задаваемое состояние \\
+\hline
+\end{DoxyParams}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_ad137c98602e811baf1551bea24410c9b_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_hall_ad137c98602e811baf1551bea24410c9b_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_hall_abf3ba87c77c6be10196dc90ba1f2033c}\label{class_hall_abf3ba87c77c6be10196dc90ba1f2033c}} 
+\index{Hall@{Hall}!OnHallClose@{OnHallClose}}
+\index{OnHallClose@{OnHallClose}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{OnHallClose}{OnHallClose}}
+{\footnotesize\ttfamily Action$<$int$>$ Hall.\+On\+Hall\+Close}
+
+
+
+Событие закрытия зала 
+
+\mbox{\Hypertarget{class_hall_a6a40e3e4f89d8d9dd904fc5832871dea}\label{class_hall_a6a40e3e4f89d8d9dd904fc5832871dea}} 
+\index{Hall@{Hall}!OnPreClose@{OnPreClose}}
+\index{OnPreClose@{OnPreClose}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{OnPreClose}{OnPreClose}}
+{\footnotesize\ttfamily Action$<$int, int$>$ Hall.\+On\+Pre\+Close}
+
+
+
+Событие скорого закрытия зала 
+
+\mbox{\Hypertarget{class_hall_a1694cff38e02302b3effa25bdb186621}\label{class_hall_a1694cff38e02302b3effa25bdb186621}} 
+\index{Hall@{Hall}!OnStateChanged@{OnStateChanged}}
+\index{OnStateChanged@{OnStateChanged}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{OnStateChanged}{OnStateChanged}}
+{\footnotesize\ttfamily Action$<$int$>$ Hall.\+On\+State\+Changed}
+
+
+
+Событие изменения состояния 
+
+\mbox{\Hypertarget{class_hall_a36b0fc36786073d857ee86c12984fe95}\label{class_hall_a36b0fc36786073d857ee86c12984fe95}} 
+\index{Hall@{Hall}!timetable@{timetable}}
+\index{timetable@{timetable}!Hall@{Hall}}
+\doxysubsubsection{\texorpdfstring{timetable}{timetable}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_timetable}{Timetable}} Hall.\+timetable}
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Museum/\mbox{\hyperlink{_hall_8cs}{Hall.\+cs}}\end{DoxyCompactItemize}

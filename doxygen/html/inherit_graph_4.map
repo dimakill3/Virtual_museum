@@ -1,0 +1,21 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" href="$interface_i_showpiece.html" title=" " alt="" coords="17,56,105,83"/>
+<area shape="rect" id="node2" href="$class_showpiece.html" title="Класс экспоната, содержащий всю информацию об экспонате" alt="" coords="197,81,283,108"/>
+<area shape="rect" id="node3" href="$class_showpiece_decorator.html" title=" " alt="" coords="169,31,311,57"/>
+<area shape="rect" id="node4" href="$class_artist_link_decorator.html" title=" " alt="" coords="380,5,513,32"/>
+<area shape="rect" id="node5" href="$class_showpiece_link_decorator.html" title=" " alt="" coords="364,56,529,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,411,116,437"/>
+<area shape="rect" id="node7" href="$class_button_actions.html" title=" " alt="" coords="188,132,292,159"/>
+<area shape="rect" id="node8" href="$class_customer.html" title=" " alt="" coords="201,183,279,209"/>
+<area shape="rect" id="node9" href="$class_customer_move.html" title=" " alt="" coords="186,233,294,260"/>
+<area shape="rect" id="node10" href="$class_customer_view.html" title=" " alt="" coords="187,284,293,311"/>
+<area shape="rect" id="node11" href="$class_dropdowns.html" title=" " alt="" coords="197,335,283,361"/>
+<area shape="rect" id="node12" href="$class_external_data.html" title=" " alt="" coords="191,385,289,412"/>
+<area shape="rect" id="node13" href="$class_guide_window_manager.html" title=" " alt="" coords="164,436,316,463"/>
+<area shape="rect" id="node14" href="$class_hall.html" title="Класс зала, организующий работу с залом и экспонатами внутри него" alt="" coords="218,487,262,513"/>
+<area shape="rect" id="node15" href="$class_interractive.html" title=" " alt="" coords="198,537,282,564"/>
+<area shape="rect" id="node16" href="$class_main_menu_manager.html" title=" " alt="" coords="174,588,306,615"/>
+<area shape="rect" id="node17" href="$class_menu_manager.html" title=" " alt="" coords="188,639,292,665"/>
+<area shape="rect" id="node18" href="$class_museum.html" title="Класс музея, управляющий залами." alt="" coords="204,689,276,716"/>
+<area shape="rect" id="node19" href="$class_notify_obj.html" title=" " alt="" coords="203,740,277,767"/>
+</map>

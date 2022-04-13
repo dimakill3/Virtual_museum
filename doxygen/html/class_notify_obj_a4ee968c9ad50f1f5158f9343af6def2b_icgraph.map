@@ -1,0 +1,5 @@
+<map id="NotifyObj.Show" name="NotifyObj.Show">
+<area shape="rect" id="node1" title="Отображает уведомление" alt="" coords="245,46,356,73"/>
+<area shape="rect" id="node2" href="$class_interractive.html#a06f4d89b67a0a9c6378d5c26558a2a5c" title="Уведомление перед закрытием зала" alt="" coords="20,5,183,47"/>
+<area shape="rect" id="node3" href="$class_interractive.html#aee1c7ca8fb51f2817623b8ca82e2c017" title="Уведомление об изменении состояния зала" alt="" coords="5,71,197,112"/>
+</map>

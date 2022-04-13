@@ -1,0 +1,163 @@
+\hypertarget{class_hall_state}{}\doxysection{Класс Hall\+State}
+\label{class_hall_state}\index{HallState@{HallState}}
+
+
+Граф наследования\+:Hall\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Граф связей класса Hall\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_hall_state__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_hall_state_a4e08f430f3d837b80ec00ab3507b08e7}{Set\+Context}} (\mbox{\hyperlink{class_hall}{Hall}} \mbox{\hyperlink{class_hall_state_a2646f127409f4d3e229bf10f0329d74c}{hall}})
+\item 
+abstract void \mbox{\hyperlink{class_hall_state_ab27dea668791d53f6a110427e6661d1e}{Run}} ()
+\item 
+abstract void \mbox{\hyperlink{class_hall_state_abe9835213ba42850ed8447fc9fe759c4}{Open}} ()
+\item 
+abstract void \mbox{\hyperlink{class_hall_state_af7237e09ea7d537fecc2dd8b102c1d4a}{Close}} ()
+\item 
+abstract void \mbox{\hyperlink{class_hall_state_aac3c4e1f28a042b056fb6a07636b836d}{Open\+For\+Customer}} ()
+\item 
+abstract string \mbox{\hyperlink{class_hall_state_a284aae5179593947558db74ca6a703de}{Get\+Description}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_hall}{Hall}} \mbox{\hyperlink{class_hall_state_a2646f127409f4d3e229bf10f0329d74c}{hall}}
+\item 
+Game\+Object \mbox{\hyperlink{class_hall_state_a0f444e82f9833e4b4cfe71a3bcf3a0c0}{barrier}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_hall_state_af7237e09ea7d537fecc2dd8b102c1d4a}\label{class_hall_state_af7237e09ea7d537fecc2dd8b102c1d4a}} 
+\index{HallState@{HallState}!Close@{Close}}
+\index{Close@{Close}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{Close()}{Close()}}
+{\footnotesize\ttfamily abstract void Hall\+State.\+Close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_closed_state_af632c7c3ec30ca47743de88e59135e6b}{Closed\+State}}, \mbox{\hyperlink{class_opened_for_customer_state_a1234863d3c9a4d712ef30881635ff64b}{Opened\+For\+Customer\+State}} и \mbox{\hyperlink{class_opened_state_ace9caea1202391d44e9cdfbb7fb9af44}{Opened\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_hall_state_af7237e09ea7d537fecc2dd8b102c1d4a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_state_a284aae5179593947558db74ca6a703de}\label{class_hall_state_a284aae5179593947558db74ca6a703de}} 
+\index{HallState@{HallState}!GetDescription@{GetDescription}}
+\index{GetDescription@{GetDescription}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{GetDescription()}{GetDescription()}}
+{\footnotesize\ttfamily abstract string Hall\+State.\+Get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_closed_state_a8e28ce9965e699e246340730a36c3ed0}{Closed\+State}}, \mbox{\hyperlink{class_opened_for_customer_state_a971bddc9b2b28d4490653c6d2c291177}{Opened\+For\+Customer\+State}} и \mbox{\hyperlink{class_opened_state_a8b9d56ee1a285fcbf54ab15b876f5cf2}{Opened\+State}}.
+
+\mbox{\Hypertarget{class_hall_state_abe9835213ba42850ed8447fc9fe759c4}\label{class_hall_state_abe9835213ba42850ed8447fc9fe759c4}} 
+\index{HallState@{HallState}!Open@{Open}}
+\index{Open@{Open}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{Open()}{Open()}}
+{\footnotesize\ttfamily abstract void Hall\+State.\+Open (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_closed_state_af70773f61bb7462dbfdd596dcb99d3f8}{Closed\+State}}, \mbox{\hyperlink{class_opened_for_customer_state_a03eab070853bf7499ca01add7e3e83f5}{Opened\+For\+Customer\+State}} и \mbox{\hyperlink{class_opened_state_aa0e33447f0f26c57950a705ab98826a6}{Opened\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{class_hall_state_abe9835213ba42850ed8447fc9fe759c4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_state_aac3c4e1f28a042b056fb6a07636b836d}\label{class_hall_state_aac3c4e1f28a042b056fb6a07636b836d}} 
+\index{HallState@{HallState}!OpenForCustomer@{OpenForCustomer}}
+\index{OpenForCustomer@{OpenForCustomer}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{OpenForCustomer()}{OpenForCustomer()}}
+{\footnotesize\ttfamily abstract void Hall\+State.\+Open\+For\+Customer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_closed_state_aaa270fd74709b0f129ae3a49df9170d9}{Closed\+State}}, \mbox{\hyperlink{class_opened_for_customer_state_adc26bb5f9ed6f7fc199f2d946c3950a9}{Opened\+For\+Customer\+State}} и \mbox{\hyperlink{class_opened_state_a49394e818c812b9b7a1748d7cb320487}{Opened\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_hall_state_aac3c4e1f28a042b056fb6a07636b836d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_state_ab27dea668791d53f6a110427e6661d1e}\label{class_hall_state_ab27dea668791d53f6a110427e6661d1e}} 
+\index{HallState@{HallState}!Run@{Run}}
+\index{Run@{Run}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{Run()}{Run()}}
+{\footnotesize\ttfamily abstract void Hall\+State.\+Run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_closed_state_af4dcfe83029c7467c1477539ba04d37a}{Closed\+State}}, \mbox{\hyperlink{class_opened_for_customer_state_a81d46feb467448f85732dd12c3f6efd0}{Opened\+For\+Customer\+State}} и \mbox{\hyperlink{class_opened_state_aae0462928cf9bd48ac35044335643142}{Opened\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_state_ab27dea668791d53f6a110427e6661d1e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_hall_state_a4e08f430f3d837b80ec00ab3507b08e7}\label{class_hall_state_a4e08f430f3d837b80ec00ab3507b08e7}} 
+\index{HallState@{HallState}!SetContext@{SetContext}}
+\index{SetContext@{SetContext}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{SetContext()}{SetContext()}}
+{\footnotesize\ttfamily void Hall\+State.\+Set\+Context (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_hall}{Hall}}}]{hall }\end{DoxyParamCaption})}
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{class_hall_state_a4e08f430f3d837b80ec00ab3507b08e7_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hall_state_a4e08f430f3d837b80ec00ab3507b08e7_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_hall_state_a0f444e82f9833e4b4cfe71a3bcf3a0c0}\label{class_hall_state_a0f444e82f9833e4b4cfe71a3bcf3a0c0}} 
+\index{HallState@{HallState}!barrier@{barrier}}
+\index{barrier@{barrier}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{barrier}{barrier}}
+{\footnotesize\ttfamily Game\+Object Hall\+State.\+barrier\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_hall_state_a2646f127409f4d3e229bf10f0329d74c}\label{class_hall_state_a2646f127409f4d3e229bf10f0329d74c}} 
+\index{HallState@{HallState}!hall@{hall}}
+\index{hall@{hall}!HallState@{HallState}}
+\doxysubsubsection{\texorpdfstring{hall}{hall}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_hall}{Hall}} Hall\+State.\+hall\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Hall States/\mbox{\hyperlink{_hall_state_8cs}{Hall\+State.\+cs}}\end{DoxyCompactItemize}

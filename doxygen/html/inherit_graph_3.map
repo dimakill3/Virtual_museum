@@ -1,0 +1,6 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" href="$class_hall_state.html" title=" " alt="" coords="5,56,80,83"/>
+<area shape="rect" id="node2" href="$class_closed_state.html" title=" " alt="" coords="168,5,261,32"/>
+<area shape="rect" id="node3" href="$class_opened_for_customer_state.html" title=" " alt="" coords="128,56,301,83"/>
+<area shape="rect" id="node4" href="$class_opened_state.html" title=" " alt="" coords="165,107,264,133"/>
+</map>

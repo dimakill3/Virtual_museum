@@ -1,0 +1,212 @@
+\hypertarget{class_customer}{}\doxysection{Класс Customer}
+\label{class_customer}\index{Customer@{Customer}}
+
+
+Граф наследования\+:Customer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_customer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Граф связей класса Customer\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_customer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_customer_a624c271d0df62dc23d03551da6e5f4c3}{Buy\+Ticket}} (\mbox{\hyperlink{class_ticket}{Ticket}} ticket)
+\begin{DoxyCompactList}\small\item\em Покупка билета \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_customer_ac2fb63357c323570e0dcacb36a31734e}{Buy\+Guide}} (\mbox{\hyperlink{class_guide}{Guide}} guide)
+\begin{DoxyCompactList}\small\item\em Покупка гида \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_customer_a1d1b255de1ff06aad7c683fd920664bf}{Get\+Money}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает количество денег посетителя \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_customer_a2e4f314cc70cbeb1218f20642a1d0521}{Find\+Ticket}} (int hall\+ID)
+\begin{DoxyCompactList}\small\item\em Поиск у пользователя билета от зала \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_customer_af911722dd55f922abfe8406597e827ff}{Find\+Guide}} (int hall\+ID, Type telltype)
+\begin{DoxyCompactList}\small\item\em Поиск у пользователя гида соответствующего типа для зала \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_guide}{Guide}} \mbox{\hyperlink{class_customer_acc6efe84ede3fb4ead4a3a3ce78fb441}{Get\+Guide}} (int hall\+ID, Type telltype)
+\begin{DoxyCompactList}\small\item\em Получить гида определённого типа \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_customer_a33b01d6910ce27210963799569f56c62}{Find\+Any\+Hall\+Guide}} (int hall\+ID)
+\begin{DoxyCompactList}\small\item\em Поиск у пользователя гида любого типа для зала \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_customer}{Customer}} \mbox{\hyperlink{class_customer_afdb94a9a3fdff1a29e54058722e2881d}{customer}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_customer_ac2fb63357c323570e0dcacb36a31734e}\label{class_customer_ac2fb63357c323570e0dcacb36a31734e}} 
+\index{Customer@{Customer}!BuyGuide@{BuyGuide}}
+\index{BuyGuide@{BuyGuide}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{BuyGuide()}{BuyGuide()}}
+{\footnotesize\ttfamily bool Customer.\+Buy\+Guide (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_guide}{Guide}}}]{guide }\end{DoxyParamCaption})}
+
+
+
+Покупка гида 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em guide} & покупаемый гид \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+bool, если хватает денег, иначе false 
+\end{DoxyReturn}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{class_customer_ac2fb63357c323570e0dcacb36a31734e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_customer_a624c271d0df62dc23d03551da6e5f4c3}\label{class_customer_a624c271d0df62dc23d03551da6e5f4c3}} 
+\index{Customer@{Customer}!BuyTicket@{BuyTicket}}
+\index{BuyTicket@{BuyTicket}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{BuyTicket()}{BuyTicket()}}
+{\footnotesize\ttfamily bool Customer.\+Buy\+Ticket (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_ticket}{Ticket}}}]{ticket }\end{DoxyParamCaption})}
+
+
+
+Покупка билета 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em ticket} & покупаемый билет \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+bool, если хватает денег, иначе false 
+\end{DoxyReturn}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{class_customer_a624c271d0df62dc23d03551da6e5f4c3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_customer_a33b01d6910ce27210963799569f56c62}\label{class_customer_a33b01d6910ce27210963799569f56c62}} 
+\index{Customer@{Customer}!FindAnyHallGuide@{FindAnyHallGuide}}
+\index{FindAnyHallGuide@{FindAnyHallGuide}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{FindAnyHallGuide()}{FindAnyHallGuide()}}
+{\footnotesize\ttfamily bool Customer.\+Find\+Any\+Hall\+Guide (\begin{DoxyParamCaption}\item[{int}]{hall\+ID }\end{DoxyParamCaption})}
+
+
+
+Поиск у пользователя гида любого типа для зала 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em hall\+ID} & номер зала \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true, если билет у пользователя найден, иначе false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_customer_af911722dd55f922abfe8406597e827ff}\label{class_customer_af911722dd55f922abfe8406597e827ff}} 
+\index{Customer@{Customer}!FindGuide@{FindGuide}}
+\index{FindGuide@{FindGuide}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{FindGuide()}{FindGuide()}}
+{\footnotesize\ttfamily bool Customer.\+Find\+Guide (\begin{DoxyParamCaption}\item[{int}]{hall\+ID,  }\item[{Type}]{telltype }\end{DoxyParamCaption})}
+
+
+
+Поиск у пользователя гида соответствующего типа для зала 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em hall\+ID} & номер зала \\
+\hline
+{\em telltype} & тип гида \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true, если билет у пользователя найден, иначе false 
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{class_customer_af911722dd55f922abfe8406597e827ff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_customer_a2e4f314cc70cbeb1218f20642a1d0521}\label{class_customer_a2e4f314cc70cbeb1218f20642a1d0521}} 
+\index{Customer@{Customer}!FindTicket@{FindTicket}}
+\index{FindTicket@{FindTicket}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{FindTicket()}{FindTicket()}}
+{\footnotesize\ttfamily bool Customer.\+Find\+Ticket (\begin{DoxyParamCaption}\item[{int}]{hall\+ID }\end{DoxyParamCaption})}
+
+
+
+Поиск у пользователя билета от зала 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em hall\+ID} & номер зала \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true, если билет у пользователя найден, иначе false 
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_customer_a2e4f314cc70cbeb1218f20642a1d0521_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_customer_acc6efe84ede3fb4ead4a3a3ce78fb441}\label{class_customer_acc6efe84ede3fb4ead4a3a3ce78fb441}} 
+\index{Customer@{Customer}!GetGuide@{GetGuide}}
+\index{GetGuide@{GetGuide}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{GetGuide()}{GetGuide()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_guide}{Guide}} Customer.\+Get\+Guide (\begin{DoxyParamCaption}\item[{int}]{hall\+ID,  }\item[{Type}]{telltype }\end{DoxyParamCaption})}
+
+
+
+Получить гида определённого типа 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em hall\+ID} & Номер зала для которого ищется гид \\
+\hline
+{\em telltype} & Тип повествования гида \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_customer_a1d1b255de1ff06aad7c683fd920664bf}\label{class_customer_a1d1b255de1ff06aad7c683fd920664bf}} 
+\index{Customer@{Customer}!GetMoney@{GetMoney}}
+\index{GetMoney@{GetMoney}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{GetMoney()}{GetMoney()}}
+{\footnotesize\ttfamily int Customer.\+Get\+Money (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает количество денег посетителя 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+\doxysubsection{Полный список свойств}
+\mbox{\Hypertarget{class_customer_afdb94a9a3fdff1a29e54058722e2881d}\label{class_customer_afdb94a9a3fdff1a29e54058722e2881d}} 
+\index{Customer@{Customer}!customer@{customer}}
+\index{customer@{customer}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{customer}{customer}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_customer}{Customer}} Customer.\+customer\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Customer/\mbox{\hyperlink{_customer_8cs}{Customer.\+cs}}\end{DoxyCompactItemize}

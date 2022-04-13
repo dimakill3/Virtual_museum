@@ -1,0 +1,6 @@
+<map id="Hall.CheckTimeForClose" name="Hall.CheckTimeForClose">
+<area shape="rect" id="node1" title="Проверка расписания зала на скорое закрытие" alt="" coords="5,64,171,91"/>
+<area shape="rect" id="node2" href="$class_timetable.html#a758b9f520089372e018ab776b9dc748a" title=" " alt="" coords="219,5,429,32"/>
+<area shape="rect" id="node3" href="$class_timetable.html#a6224a27b96c455cdbc7fe027a7678abe" title=" " alt="" coords="239,57,409,98"/>
+<area shape="rect" id="node4" href="$class_external_data.html#adeddc55dfab28631475ddd13ba925bd5" title="Возвращает текущее время в минутах" alt="" coords="221,123,427,149"/>
+</map>

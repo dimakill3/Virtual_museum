@@ -1,0 +1,5 @@
+<map id="AudioGuideState.Play" name="AudioGuideState.Play">
+<area shape="rect" id="node1" title=" " alt="" coords="421,13,572,39"/>
+<area shape="rect" id="node2" href="$class_audio_tell.html#a2d21b06cf85c2ba370e0945b6aca7c3a" title=" " alt="" coords="268,13,373,39"/>
+<area shape="rect" id="node3" href="$class_guide_window_manager.html#a3a450cdcd68cf4f666b6e23bf02019fe" title=" " alt="" coords="5,5,220,47"/>
+</map>

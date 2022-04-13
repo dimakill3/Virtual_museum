@@ -1,0 +1,5 @@
+<map id="ExternalData.GetTimeInMinutes" name="ExternalData.GetTimeInMinutes">
+<area shape="rect" id="node1" title="Возвращает текущее время в минутах" alt="" coords="219,31,425,57"/>
+<area shape="rect" id="node2" href="$class_hall.html#aa282abb339857a23cd09f051c2b3906f" title="Проверяет расписание и изменяет состояние зала, если нужно" alt="" coords="31,5,145,32"/>
+<area shape="rect" id="node3" href="$class_hall.html#ac3a8dd64228410cba8ca4a193136aacb" title="Проверка расписания зала на скорое закрытие" alt="" coords="5,56,171,83"/>
+</map>

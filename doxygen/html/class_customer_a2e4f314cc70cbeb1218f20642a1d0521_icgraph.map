@@ -1,0 +1,5 @@
+<map id="Customer.FindTicket" name="Customer.FindTicket">
+<area shape="rect" id="node1" title="Поиск у пользователя билета от зала" alt="" coords="203,31,345,57"/>
+<area shape="rect" id="node2" href="$class_hall.html#aa282abb339857a23cd09f051c2b3906f" title="Проверяет расписание и изменяет состояние зала, если нужно" alt="" coords="23,5,137,32"/>
+<area shape="rect" id="node3" href="$class_dropdowns.html#a893e9e1e3765506f5282244019dc96ff" title=" " alt="" coords="5,56,155,83"/>
+</map>

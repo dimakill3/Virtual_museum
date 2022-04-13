@@ -1,0 +1,125 @@
+\hypertarget{class_museum}{}\doxysection{Класс Museum}
+\label{class_museum}\index{Museum@{Museum}}
+
+
+Класс музея, управляющий залами.  
+
+
+
+
+Граф наследования\+:Museum\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_museum__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Граф связей класса Museum\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_museum__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_hall}{Hall}} \mbox{\hyperlink{class_museum_a6610605d28d1afd7863116c21542deaa}{Get\+Hall}} (int hall\+ID)
+\item 
+List$<$ \mbox{\hyperlink{class_hall}{Hall}} $>$ \mbox{\hyperlink{class_museum_a45295cb9ada291f818faaf36aeabe523}{Get\+Halls}} ()
+\item 
+int \mbox{\hyperlink{class_museum_a9406e981e9832d1d3de24d414c8a9989}{Get\+Hall\+Count}} ()
+\item 
+void \mbox{\hyperlink{class_museum_af902e193b77cdfc23e01b9dcd4e7cbbe}{Add\+Hall}} (\mbox{\hyperlink{class_hall}{Hall}} hall)
+\end{DoxyCompactItemize}
+\doxysubsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_museum}{Museum}} \mbox{\hyperlink{class_museum_a2167cbeac0bdcd32ffca918fce40a1ac}{museum}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс музея, управляющий залами. 
+
+Предназначен для добавления и хранения залов музея, а также выдачи информации о них.
+
+\begin{DoxyNote}{Заметки}
+Класс является {\bfseries{одиночкой}}. 
+\end{DoxyNote}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_museum_af902e193b77cdfc23e01b9dcd4e7cbbe}\label{class_museum_af902e193b77cdfc23e01b9dcd4e7cbbe}} 
+\index{Museum@{Museum}!AddHall@{AddHall}}
+\index{AddHall@{AddHall}!Museum@{Museum}}
+\doxysubsubsection{\texorpdfstring{AddHall()}{AddHall()}}
+{\footnotesize\ttfamily void Museum.\+Add\+Hall (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_hall}{Hall}}}]{hall }\end{DoxyParamCaption})}
+
+Добавляет зал в музей 
+\begin{DoxyParams}{Аргументы}
+{\em hall} & Зал для добавления \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_museum_a6610605d28d1afd7863116c21542deaa}\label{class_museum_a6610605d28d1afd7863116c21542deaa}} 
+\index{Museum@{Museum}!GetHall@{GetHall}}
+\index{GetHall@{GetHall}!Museum@{Museum}}
+\doxysubsubsection{\texorpdfstring{GetHall()}{GetHall()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_hall}{Hall}} Museum.\+Get\+Hall (\begin{DoxyParamCaption}\item[{int}]{hall\+ID }\end{DoxyParamCaption})}
+
+Возвращает зал музея с указанным номером, если он имеется в музее 
+\begin{DoxyParams}{Аргументы}
+{\em hall\+ID} & Номер зала \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Зал с указанным номером, если он имеется в музее, иначе -\/ null. 
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{class_museum_a6610605d28d1afd7863116c21542deaa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_museum_a9406e981e9832d1d3de24d414c8a9989}\label{class_museum_a9406e981e9832d1d3de24d414c8a9989}} 
+\index{Museum@{Museum}!GetHallCount@{GetHallCount}}
+\index{GetHallCount@{GetHallCount}!Museum@{Museum}}
+\doxysubsubsection{\texorpdfstring{GetHallCount()}{GetHallCount()}}
+{\footnotesize\ttfamily int Museum.\+Get\+Hall\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает количество залов в музее \begin{DoxyReturn}{Возвращает}
+Количество залов в музее 
+\end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{class_museum_a9406e981e9832d1d3de24d414c8a9989_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_museum_a45295cb9ada291f818faaf36aeabe523}\label{class_museum_a45295cb9ada291f818faaf36aeabe523}} 
+\index{Museum@{Museum}!GetHalls@{GetHalls}}
+\index{GetHalls@{GetHalls}!Museum@{Museum}}
+\doxysubsubsection{\texorpdfstring{GetHalls()}{GetHalls()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_hall}{Hall}} $>$ Museum.\+Get\+Halls (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Возвращает список всех залов музея \begin{DoxyReturn}{Возвращает}
+Список всех залов музея 
+\end{DoxyReturn}
+
+
+\doxysubsection{Полный список свойств}
+\mbox{\Hypertarget{class_museum_a2167cbeac0bdcd32ffca918fce40a1ac}\label{class_museum_a2167cbeac0bdcd32ffca918fce40a1ac}} 
+\index{Museum@{Museum}!museum@{museum}}
+\index{museum@{museum}!Museum@{Museum}}
+\doxysubsubsection{\texorpdfstring{museum}{museum}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_museum}{Museum}} Museum.\+museum\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Museum/\mbox{\hyperlink{_museum_8cs}{Museum.\+cs}}\end{DoxyCompactItemize}

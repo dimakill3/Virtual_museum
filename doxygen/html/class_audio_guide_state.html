@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Virtual museum: Класс AudioGuideState</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Virtual museum
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_audio_guide_state.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pro-attribs">Защищенные данные</a> &#124;
+<a href="class_audio_guide_state-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс AudioGuideState<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Граф наследования:AudioGuideState:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_guide_state__inherit__graph.png" border="0" usemap="#a_audio_guide_state_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_audio_guide_state_inherit__map" id="a_audio_guide_state_inherit__map">
+<area shape="rect" title=" " alt="" coords="106,5,226,32"/>
+<area shape="rect" href="class_paused_state.html" title=" " alt="" coords="5,80,103,107"/>
+<area shape="rect" href="class_play_state.html" title=" " alt="" coords="127,80,205,107"/>
+<area shape="rect" href="class_stopped_state.html" title=" " alt="" coords="230,80,331,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса AudioGuideState:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_guide_state__coll__graph.png" border="0" usemap="#a_audio_guide_state_coll__map" alt="Collaboration graph"/></div>
+<map name="a_audio_guide_state_coll__map" id="a_audio_guide_state_coll__map">
+<area shape="rect" title=" " alt="" coords="5,171,125,197"/>
+<area shape="rect" href="class_audio_tell.html" title=" " alt="" coords="28,81,103,108"/>
+<area shape="rect" href="interface_tell.html" title=" " alt="" coords="44,5,87,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a81a835cc5769b19c4cd68044e9a58d5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_guide_state.html#a81a835cc5769b19c4cd68044e9a58d5e">SetContext</a> (<a class="el" href="class_audio_tell.html">AudioTell</a> at)</td></tr>
+<tr class="separator:a81a835cc5769b19c4cd68044e9a58d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649a1757b3716ae359ef2d250a2dc56b"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_guide_state.html#a649a1757b3716ae359ef2d250a2dc56b">Run</a> ()</td></tr>
+<tr class="separator:a649a1757b3716ae359ef2d250a2dc56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e52f52da1e9e92852ee58f59869878a"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_guide_state.html#a6e52f52da1e9e92852ee58f59869878a">Play</a> ()</td></tr>
+<tr class="separator:a6e52f52da1e9e92852ee58f59869878a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8224dc9ccaf2e9f6aed4e5d605a88bd"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_guide_state.html#ab8224dc9ccaf2e9f6aed4e5d605a88bd">Stop</a> ()</td></tr>
+<tr class="separator:ab8224dc9ccaf2e9f6aed4e5d605a88bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a066b9ce9a0bfa98ed908743b0fe46e36"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_guide_state.html#a066b9ce9a0bfa98ed908743b0fe46e36">Pause</a> ()</td></tr>
+<tr class="separator:a066b9ce9a0bfa98ed908743b0fe46e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Защищенные данные</h2></td></tr>
+<tr class="memitem:a45c1b7ec46c743d970a26c33ed79ca0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_audio_tell.html">AudioTell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_audio_guide_state.html#a45c1b7ec46c743d970a26c33ed79ca0a">audioGuide</a></td></tr>
+<tr class="separator:a45c1b7ec46c743d970a26c33ed79ca0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Методы</h2>
+<a id="a066b9ce9a0bfa98ed908743b0fe46e36" name="a066b9ce9a0bfa98ed908743b0fe46e36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066b9ce9a0bfa98ed908743b0fe46e36">&#9670;&nbsp;</a></span>Pause()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void AudioGuideState.Pause </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="class_paused_state.html#ac942c91f80643c590d3b199cb0008d2c">PausedState</a>, <a class="el" href="class_play_state.html#ae8b3a2e5659398f93326d00edb0c33f4">PlayState</a> и <a class="el" href="class_stopped_state.html#a1f782d2f62678ec75da1c935e7a82576">StoppedState</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36_icgraph.png" border="0" usemap="#aclass_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36_icgraph" alt=""/></div>
+<map name="aclass_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36_icgraph" id="aclass_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36_icgraph">
+<area shape="rect" title=" " alt="" coords="411,13,572,39"/>
+<area shape="rect" href="class_audio_tell.html#a9c829cb6f36f3c933f6f317f3c9e07af" title=" " alt="" coords="247,13,363,39"/>
+<area shape="rect" href="class_guide_window_manager.html#a8e8b1b3ed2bf12af981f84137449f962" title=" " alt="" coords="5,5,199,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6e52f52da1e9e92852ee58f59869878a" name="a6e52f52da1e9e92852ee58f59869878a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e52f52da1e9e92852ee58f59869878a">&#9670;&nbsp;</a></span>Play()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void AudioGuideState.Play </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="class_paused_state.html#a32633cda6a47fc659992202b365bf9e6">PausedState</a>, <a class="el" href="class_play_state.html#ad1f871ff9c9da9ab6fd26a75d64d7256">PlayState</a> и <a class="el" href="class_stopped_state.html#a94450df731f3607bd4f60087c0a70614">StoppedState</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a_icgraph.png" border="0" usemap="#aclass_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a_icgraph" alt=""/></div>
+<map name="aclass_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a_icgraph" id="aclass_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a_icgraph">
+<area shape="rect" title=" " alt="" coords="421,13,572,39"/>
+<area shape="rect" href="class_audio_tell.html#a2d21b06cf85c2ba370e0945b6aca7c3a" title=" " alt="" coords="268,13,373,39"/>
+<area shape="rect" href="class_guide_window_manager.html#a3a450cdcd68cf4f666b6e23bf02019fe" title=" " alt="" coords="5,5,220,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a649a1757b3716ae359ef2d250a2dc56b" name="a649a1757b3716ae359ef2d250a2dc56b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a649a1757b3716ae359ef2d250a2dc56b">&#9670;&nbsp;</a></span>Run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract string AudioGuideState.Run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="class_paused_state.html#a6407b8a878a7a1ee9d46be23436d9cee">PausedState</a>, <a class="el" href="class_play_state.html#ab4339f5d4c7667ae3e31d2abc59cd314">PlayState</a> и <a class="el" href="class_stopped_state.html#a78e15204bb7ee6901fb8f34bd786181b">StoppedState</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b_icgraph.png" border="0" usemap="#aclass_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b_icgraph" alt=""/></div>
+<map name="aclass_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b_icgraph" id="aclass_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b_icgraph">
+<area shape="rect" title=" " alt="" coords="433,78,580,105"/>
+<area shape="rect" href="class_audio_tell.html#a9c829cb6f36f3c933f6f317f3c9e07af" title=" " alt="" coords="269,21,385,47"/>
+<area shape="rect" href="class_audio_tell.html#a2d21b06cf85c2ba370e0945b6aca7c3a" title=" " alt="" coords="275,78,380,105"/>
+<area shape="rect" href="class_audio_tell.html#a5e3cf0e2de63e1fb14b74430ef23341c" title=" " alt="" coords="274,135,381,162"/>
+<area shape="rect" href="class_guide_window_manager.html#a8e8b1b3ed2bf12af981f84137449f962" title=" " alt="" coords="17,5,210,47"/>
+<area shape="rect" href="class_guide_window_manager.html#a3a450cdcd68cf4f666b6e23bf02019fe" title=" " alt="" coords="6,71,221,112"/>
+<area shape="rect" href="class_guide_window_manager.html#a9197984af156aac4c2d46aea45bef806" title=" " alt="" coords="5,136,221,177"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a81a835cc5769b19c4cd68044e9a58d5e" name="a81a835cc5769b19c4cd68044e9a58d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a835cc5769b19c4cd68044e9a58d5e">&#9670;&nbsp;</a></span>SetContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioGuideState.SetContext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_audio_tell.html">AudioTell</a>&#160;</td>
+          <td class="paramname"><em>at</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e_icgraph.png" border="0" usemap="#aclass_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e_icgraph" alt=""/></div>
+<map name="aclass_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e_icgraph" id="aclass_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e_icgraph">
+<area shape="rect" title=" " alt="" coords="387,81,576,108"/>
+<area shape="rect" href="class_audio_tell.html#ae50c11eb949217757814f268dabf51f4" title=" " alt="" coords="195,56,327,83"/>
+<area shape="rect" href="class_audio_tell.html#a3b64eb61574eb187e9576f1264ebb6f5" title=" " alt="" coords="184,107,339,133"/>
+<area shape="rect" href="class_play_state.html#ae8b3a2e5659398f93326d00edb0c33f4" title=" " alt="" coords="11,5,131,32"/>
+<area shape="rect" href="class_paused_state.html#a32633cda6a47fc659992202b365bf9e6" title=" " alt="" coords="7,56,134,83"/>
+<area shape="rect" href="class_stopped_state.html#a94450df731f3607bd4f60087c0a70614" title=" " alt="" coords="5,107,136,133"/>
+<area shape="rect" href="class_paused_state.html#a9b30636d2f76d33d23e3d608057f7738" title=" " alt="" coords="7,157,135,184"/>
+<area shape="rect" href="class_play_state.html#ae4c54e0797850f64172c32488163942b" title=" " alt="" coords="15,208,126,235"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab8224dc9ccaf2e9f6aed4e5d605a88bd" name="ab8224dc9ccaf2e9f6aed4e5d605a88bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8224dc9ccaf2e9f6aed4e5d605a88bd">&#9670;&nbsp;</a></span>Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void AudioGuideState.Stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="class_paused_state.html#a9b30636d2f76d33d23e3d608057f7738">PausedState</a>, <a class="el" href="class_play_state.html#ae4c54e0797850f64172c32488163942b">PlayState</a> и <a class="el" href="class_stopped_state.html#abbfba445ada6b6e0bf4e1f5f1a4d21e9">StoppedState</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd_icgraph.png" border="0" usemap="#aclass_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd_icgraph" alt=""/></div>
+<map name="aclass_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd_icgraph" id="aclass_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd_icgraph">
+<area shape="rect" title=" " alt="" coords="424,13,575,39"/>
+<area shape="rect" href="class_audio_tell.html#a5e3cf0e2de63e1fb14b74430ef23341c" title=" " alt="" coords="269,13,376,39"/>
+<area shape="rect" href="class_guide_window_manager.html#a9197984af156aac4c2d46aea45bef806" title=" " alt="" coords="5,5,221,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="a45c1b7ec46c743d970a26c33ed79ca0a" name="a45c1b7ec46c743d970a26c33ed79ca0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c1b7ec46c743d970a26c33ed79ca0a">&#9670;&nbsp;</a></span>audioGuide</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_audio_tell.html">AudioTell</a> AudioGuideState.audioGuide</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>Assets/Scripts/AudioGuideStates/<a class="el" href="_audio_guide_state_8cs.html">AudioGuideState.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_audio_guide_state.html">AudioGuideState</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="Hall.HallInit" name="Hall.HallInit">
+<area shape="rect" id="node1" title="Инициализация зала" alt="" coords="5,31,92,57"/>
+<area shape="rect" id="node2" href="$class_hall.html#ae1cbb6d459222ef97beda731d1898d0e" title=" " alt="" coords="149,5,284,32"/>
+<area shape="rect" id="node3" href="$class_museum.html#a9406e981e9832d1d3de24d414c8a9989" title=" " alt="" coords="140,56,293,83"/>
+</map>

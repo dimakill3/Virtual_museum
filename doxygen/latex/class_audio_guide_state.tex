@@ -1,0 +1,136 @@
+\hypertarget{class_audio_guide_state}{}\doxysection{Класс Audio\+Guide\+State}
+\label{class_audio_guide_state}\index{AudioGuideState@{AudioGuideState}}
+
+
+Граф наследования\+:Audio\+Guide\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{class_audio_guide_state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Граф связей класса Audio\+Guide\+State\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=177pt]{class_audio_guide_state__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e}{Set\+Context}} (\mbox{\hyperlink{class_audio_tell}{Audio\+Tell}} at)
+\item 
+abstract string \mbox{\hyperlink{class_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b}{Run}} ()
+\item 
+abstract void \mbox{\hyperlink{class_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a}{Play}} ()
+\item 
+abstract void \mbox{\hyperlink{class_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd}{Stop}} ()
+\item 
+abstract void \mbox{\hyperlink{class_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36}{Pause}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_audio_tell}{Audio\+Tell}} \mbox{\hyperlink{class_audio_guide_state_a45c1b7ec46c743d970a26c33ed79ca0a}{audio\+Guide}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36}\label{class_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36}} 
+\index{AudioGuideState@{AudioGuideState}!Pause@{Pause}}
+\index{Pause@{Pause}!AudioGuideState@{AudioGuideState}}
+\doxysubsubsection{\texorpdfstring{Pause()}{Pause()}}
+{\footnotesize\ttfamily abstract void Audio\+Guide\+State.\+Pause (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_paused_state_ac942c91f80643c590d3b199cb0008d2c}{Paused\+State}}, \mbox{\hyperlink{class_play_state_ae8b3a2e5659398f93326d00edb0c33f4}{Play\+State}} и \mbox{\hyperlink{class_stopped_state_a1f782d2f62678ec75da1c935e7a82576}{Stopped\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_guide_state_a066b9ce9a0bfa98ed908743b0fe46e36_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a}\label{class_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a}} 
+\index{AudioGuideState@{AudioGuideState}!Play@{Play}}
+\index{Play@{Play}!AudioGuideState@{AudioGuideState}}
+\doxysubsubsection{\texorpdfstring{Play()}{Play()}}
+{\footnotesize\ttfamily abstract void Audio\+Guide\+State.\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_paused_state_a32633cda6a47fc659992202b365bf9e6}{Paused\+State}}, \mbox{\hyperlink{class_play_state_ad1f871ff9c9da9ab6fd26a75d64d7256}{Play\+State}} и \mbox{\hyperlink{class_stopped_state_a94450df731f3607bd4f60087c0a70614}{Stopped\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_guide_state_a6e52f52da1e9e92852ee58f59869878a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b}\label{class_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b}} 
+\index{AudioGuideState@{AudioGuideState}!Run@{Run}}
+\index{Run@{Run}!AudioGuideState@{AudioGuideState}}
+\doxysubsubsection{\texorpdfstring{Run()}{Run()}}
+{\footnotesize\ttfamily abstract string Audio\+Guide\+State.\+Run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_paused_state_a6407b8a878a7a1ee9d46be23436d9cee}{Paused\+State}}, \mbox{\hyperlink{class_play_state_ab4339f5d4c7667ae3e31d2abc59cd314}{Play\+State}} и \mbox{\hyperlink{class_stopped_state_a78e15204bb7ee6901fb8f34bd786181b}{Stopped\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_guide_state_a649a1757b3716ae359ef2d250a2dc56b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e}\label{class_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e}} 
+\index{AudioGuideState@{AudioGuideState}!SetContext@{SetContext}}
+\index{SetContext@{SetContext}!AudioGuideState@{AudioGuideState}}
+\doxysubsubsection{\texorpdfstring{SetContext()}{SetContext()}}
+{\footnotesize\ttfamily void Audio\+Guide\+State.\+Set\+Context (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_audio_tell}{Audio\+Tell}}}]{at }\end{DoxyParamCaption})}
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_guide_state_a81a835cc5769b19c4cd68044e9a58d5e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd}\label{class_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd}} 
+\index{AudioGuideState@{AudioGuideState}!Stop@{Stop}}
+\index{Stop@{Stop}!AudioGuideState@{AudioGuideState}}
+\doxysubsubsection{\texorpdfstring{Stop()}{Stop()}}
+{\footnotesize\ttfamily abstract void Audio\+Guide\+State.\+Stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_paused_state_a9b30636d2f76d33d23e3d608057f7738}{Paused\+State}}, \mbox{\hyperlink{class_play_state_ae4c54e0797850f64172c32488163942b}{Play\+State}} и \mbox{\hyperlink{class_stopped_state_abbfba445ada6b6e0bf4e1f5f1a4d21e9}{Stopped\+State}}.
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_audio_guide_state_ab8224dc9ccaf2e9f6aed4e5d605a88bd_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_audio_guide_state_a45c1b7ec46c743d970a26c33ed79ca0a}\label{class_audio_guide_state_a45c1b7ec46c743d970a26c33ed79ca0a}} 
+\index{AudioGuideState@{AudioGuideState}!audioGuide@{audioGuide}}
+\index{audioGuide@{audioGuide}!AudioGuideState@{AudioGuideState}}
+\doxysubsubsection{\texorpdfstring{audioGuide}{audioGuide}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_audio_tell}{Audio\+Tell}} Audio\+Guide\+State.\+audio\+Guide\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\+Audio\+Guide\+States/\mbox{\hyperlink{_audio_guide_state_8cs}{Audio\+Guide\+State.\+cs}}\end{DoxyCompactItemize}

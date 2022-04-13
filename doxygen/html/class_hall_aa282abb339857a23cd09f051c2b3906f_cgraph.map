@@ -1,0 +1,10 @@
+<map id="Hall.CheckTime" name="Hall.CheckTime">
+<area shape="rect" id="node1" title="Проверяет расписание и изменяет состояние зала, если нужно" alt="" coords="5,165,119,192"/>
+<area shape="rect" id="node2" href="$class_hall_state.html#af7237e09ea7d537fecc2dd8b102c1d4a" title=" " alt="" coords="216,5,328,32"/>
+<area shape="rect" id="node3" href="$class_customer.html#a2e4f314cc70cbeb1218f20642a1d0521" title="Поиск у пользователя билета от зала" alt="" coords="201,56,343,83"/>
+<area shape="rect" id="node4" href="$class_timetable.html#a758b9f520089372e018ab776b9dc748a" title=" " alt="" coords="167,107,377,133"/>
+<area shape="rect" id="node5" href="$class_timetable.html#a6224a27b96c455cdbc7fe027a7678abe" title=" " alt="" coords="187,158,357,199"/>
+<area shape="rect" id="node6" href="$class_external_data.html#adeddc55dfab28631475ddd13ba925bd5" title="Возвращает текущее время в минутах" alt="" coords="169,224,375,251"/>
+<area shape="rect" id="node7" href="$class_hall_state.html#abe9835213ba42850ed8447fc9fe759c4" title=" " alt="" coords="217,275,327,301"/>
+<area shape="rect" id="node8" href="$class_hall_state.html#aac3c4e1f28a042b056fb6a07636b836d" title=" " alt="" coords="179,325,365,352"/>
+</map>

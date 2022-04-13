@@ -1,0 +1,5 @@
+<map id="MenuManager.OpenShop" name="MenuManager.OpenShop">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,175,57"/>
+<area shape="rect" id="node2" href="$class_menu_manager.html#a9dc14df4d995225931886a6bf64aa21e" title=" " alt="" coords="223,5,404,32"/>
+<area shape="rect" id="node3" href="$class_external_data.html#a991c831270b9e9359f5197c08db239cb" title=" " alt="" coords="233,56,394,83"/>
+</map>
